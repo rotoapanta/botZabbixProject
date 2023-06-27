@@ -59,7 +59,9 @@ Let’s get started!
 
 myapp/
 ├── config_reader.py
+
 ├── myapp/
+
 │   ├── __init__.py
 │   ├── zabbix.py
 │   └── telegram_bot.py
