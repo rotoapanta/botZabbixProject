@@ -133,7 +133,7 @@ To run this project, you will need to add the IP address of the Zabbix server to
 To run tests, run the following command
 
 ```python
-  ampy --port /dev/ttyUSB0 run network.py
+  ampy --port /dev/ttyUSB0 run main.py
 ```
 
 ## Usage/Examples
