@@ -39,7 +39,7 @@
 
 # Getting started
 
-## Getting started with Tiltmeter and Zabbix
+## Getting started with Zabbix and Telegram
 
 The digital inclinometer is a high-precision instrument designed to measure very small changes in the horizontal plane. In the context of volcanoes, an inclinometer is used to measure very small changes in the horizontal plane of the terrain around the volcano. These changes can be indicative of volcanic activity, such as deformation of the terrain caused by inflation or deflation of magma beneath the volcano. This tutorial will guide you to obtain data from the Tiltmeter (tangential axis, radial axis, and temperature) to Zabbix.
 
@@ -47,10 +47,8 @@ Let’s get started!
  
 ## Requirements
 
-  * Digital Tiltmeter Model D711-A.
-  * USB to Serial converter cable.
-  * Power Supply Adapter 12 VDC.
-  * Hyperterminal.
+  * Zabbix API.
+  * Bot Telegram.
   * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
   * Python 3.10 or later.
   * [Install py-zabbix 1.1.7](https://pypi.org/project/pyzabbix/)
@@ -78,16 +76,22 @@ There is a way to provide power to the tiltmeter:
 2. Create a new environment with python 3.10.
 
    ```bash
-   conda create --name tiltmeter_zabbix_env python=3.10
+   conda create --name bot_zabbix_env python=3.10
    ```
 
-3. Install pyserial library.
+3. Install pythonping library.
 
    ```bash
-   pip install pyserial
+   pip install pythonping
    ```
 
-4. Install py-zabbix library.
+4. Install pythonping library.
+
+   ```bash
+   pip install python-telegram-bot==13.1
+   ```
+   
+5. Install py-zabbix library.
 
    ```bash
    pip install py-zabbix
