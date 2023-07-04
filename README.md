@@ -72,34 +72,22 @@ This project consists of the following components:
   - requirements.txt
   - README.md
 
-`app.py`: This is the main entry point of the application. It initializes the logging configuration, reads the configuration file, connects to the Zabbix server, and starts the Telegram bot.
+- `app.py`: This is the main entry point of the application. It initializes the logging configuration, reads the configuration file, connects to the Zabbix server, and starts the Telegram bot.
 
-`app.log`: This file is the application's log file. It will store the log messages generated during the program's execution.
+- `app.log`: This file is the application's log file. It will store the log messages generated during the program's execution.
 
-`config.ini`: This configuration file contains the necessary parameters for the application, such as the Zabbix URL, username, password, and the Telegram bot token. It is used by the config_reader.py module to retrieve the configuration values.
+- `config.ini`: This configuration file contains the necessary parameters for the application, such as the Zabbix URL, username, password, and the Telegram bot token. It is used by the config_reader.py module to retrieve the configuration values.
 
-`config_reader.py`: This module is responsible for reading the configuration file (config.ini). It uses the configparser library to parse the file and extract the required configuration parameters.
+- `config_reader.py`: This module is responsible for reading the configuration file (config.ini). It uses the configparser library to parse the file and extract the required configuration parameters.
 
-`logging.ini`: This configuration file contains the logging settings for the application. It specifies the log format, log levels, and log file location.
+- `logging.ini`: This configuration file contains the logging settings for the application. It specifies the log format, log levels, and log file location.
 
-    `zbx_bot`: This folder contains the modules related to the Zabbix bot functionality.
-        `init.py`: This file is required to mark the "zbx_bot" folder as a Python package.
-        `telegram_bot.py`: This module implements the Telegram bot functionality.
-        `zabbix.py`: This module provides functions to interact with the Zabbix API.
+- `zbx_bot`: This folder contains the modules related to the Zabbix bot functionality.
 
-    `requirements.txt`: This file lists all the required Python dependencies for the project. It can be used with the pip command to install the necessary packages.
-
-    README.md: This file provides an overview of the project, including installation instructions, usage guidelines, troubleshooting information, and licensing details.
-
-
-
-- `app.py`: The main file that starts the Telegram bot application and handles the integration with Zabbix.
-- `config.ini`: The configuration file that contains the Zabbix credentials and Telegram access token.
-- `config_reader.py`: Module to read the configuration from the `config.ini` file.
-- `zbx_bot/`: Directory that contains the files related to the Telegram bot and Zabbix integration.
-  - `zabbix.py`: Module that connects to the Zabbix API and performs operations related to hosts.
-  - `telegram_bot.py`: Module that implements the Telegram bot and handles commands and responses.
-- `README.md`: This file provides information about the project and its structure.
+  - `init.py`: This file is required to mark the "zbx_bot" folder as a Python package.
+  - `telegram_bot.py`: This module implements the Telegram bot functionality.
+  - `zabbix.py`: This module provides functions to interact with the Zabbix API.
+- `requirements.txt`: This file lists all the required Python dependencies for the project. It can be used with the pip command to install the necessary packages.
 
 ## Configuration
 
