@@ -57,13 +57,14 @@ Let’s get started!
 ## Components Description
 ![tiltmeter](https://github.com/rotoapanta/digital_tiltmeter_zabbix/assets/16738424/4b84db25-066b-43fc-a19f-c36d25a4a728)
 
-myapp/
-├── config_reader.py
 ├── myapp/
 │   ├── __init__.py
 │   ├── zabbix.py
 │   └── telegram_bot.py
-└── main.py
+├── config.ini
+├── config_reader.py
+├── main.py
+└── README.md
 
 /proc/15589/fd
 |-- fdinfo
