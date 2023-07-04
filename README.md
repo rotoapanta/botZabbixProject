@@ -89,9 +89,19 @@ This project consists of the following components:
   - `zabbix.py`: This module provides functions to interact with the Zabbix API.
 - `requirements.txt`: This file lists all the required Python dependencies for the project. It can be used with the pip command to install the necessary packages.
 
-## Configuration
+## Installation
 
-Before running the application, you need to configure the Zabbix credentials and the Telegram access token in the `config.ini` file. Make sure to provide the correct values in the `[Zabbix]` and `[Telegram]` sections.
+1. Clone the repository:
+
+`git clone https://github.com/your-username/telegram-zabbix-bot.git`
+
+2. Navigate to the project directory:
+`cd telegram-zabbix-bot`
+
+3. Install the required Python packages:
+`pip install -r requirements.txt`
+
+## Configuration
 
 1. Open the config.ini file in the project directory.
 
@@ -100,10 +110,17 @@ Before running the application, you need to configure the Zabbix credentials and
    - Enter your Zabbix username in the user field.
    - Provide your Zabbix password in the password field.
 
-4. Configure the Telegram access token:
+3. Configure the Telegram access token:
    - Set your Telegram bot token in the token field under the [Telegram] section.
 
-## Execution
+## Running the Application
+
+1. Run the application using the following command:
+
+`python app.py config.ini`
+
+2. The Telegram bot will start and listen for commands.
+
 
 To run the application, use the following command:
 
@@ -176,13 +193,8 @@ To run tests, run the following command
 
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
+- Send `/ping` command to the bot in a Telegram chat to initiate a host search and perform a ping test.
+- Follow the prompts and instructions provided by the bot to interact and retrieve information from Zabbix.
 
 ## Feedback
 
