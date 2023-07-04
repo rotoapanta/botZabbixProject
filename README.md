@@ -38,21 +38,25 @@
 
 ## Getting started with Zabbix and Telegram
 
-The digital inclinometer is a high-precision instrument designed to measure very small changes in the horizontal plane. In the context of volcanoes, an inclinometer is used to measure very small changes in the horizontal plane of the terrain around the volcano. These changes can be indicative of volcanic activity, such as deformation of the terrain caused by inflation or deflation of magma beneath the volcano. This tutorial will guide you to obtain data from the Tiltmeter (tangential axis, radial axis, and temperature) to Zabbix.
+Welcome to the project! This guide will help you get started with setting up and running the application.
+Introduction
+
+The project is a Python-based application designed to perform certain tasks using the Zabbix monitoring system and integrate with the Telegram messaging platform. It provides functionalities such as searching and pinging hosts through a Telegram bot.
 
 Let’s get started!
  
 ## Requirements
 
-  * Zabbix API.
-  * Bot Telegram.
+  * Python 3.10 or higher installed on your system.
+  * `python-telegram-bot` library version 13.1 installed.
+  * Access to a Zabbix server with appropriate credentials. 
+  * A Telegram bot token obtained from the BotFather.
+  * `pyzabbix` library installed to interact with the Zabbix API..
   * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
-  * Python 3.10 or later.
   * [Install py-zabbix 1.1.7](https://pypi.org/project/pyzabbix/)
   * [Install pyserial 3.5](https://pypi.org/project/pyserial/)
 
 ## Components Description
-![tiltmeter](https://github.com/rotoapanta/digital_tiltmeter_zabbix/assets/16738424/4b84db25-066b-43fc-a19f-c36d25a4a728)
 
 ├── myapp/
 │   ├── __init__.py
@@ -63,21 +67,23 @@ Let’s get started!
 ├── main.py
 └── README.md
 
-/proc/15589/fd
-|-- fdinfo
-|-- net
-|   |-- dev_snmp6
-|   |-- netfilter
-|   |-- rpc
-|   |   |-- auth.rpcsec.context
-|   |   |-- auth.rpcsec.init
-|   |   |-- auth.unix.gid
-|   |   |-- auth.unix.ip
-|   |   |-- nfs4.idtoname
-|   |   |-- nfs4.nametoid
-|   |   |-- nfsd.export
-|   |   
-|   
+This project consists of the following components:
+
+1. main.py: This is the main entry point of the application. It initializes the logging configuration, reads the configuration file, connects to the Zabbix server, and starts the Telegram bot.
+
+2. config_reader.py: This module is responsible for reading the configuration file (`config.ini`). It uses the configparser library to parse the file and extract the required configuration parameters.
+
+3. config.ini: This configuration file contains the necessary parameters for the application, such as the Zabbix URL, username, password, and the Telegram bot token. It is used by the config_reader.py module to retrieve the configuration values.
+
+4. zabbix.py: This module provides functions to interact with the Zabbix API. It includes functions for connecting to the Zabbix server, searching hosts by name, retrieving host information, obtaining host IP addresses, and performing ping operations.
+
+5. telegram_bot.py: This module implements the Telegram bot functionality. It uses the python-telegram-bot library to create and manage the bot, handle commands and messages from users, and interact with the Zabbix module to perform host searches and ping operations.
+
+6. logging.ini: This configuration file contains the logging settings for the application. It specifies the log format, log levels, and log file location.
+
+7. README.md: This file provides an overview of the project, including installation instructions, usage guidelines, troubleshooting information, and licensing details.
+
+8. requirements.txt: This file lists all the required Python dependencies for the project. It can be used with the pip command to install the necessary packages.
 
 
 - `app.py`: The main file that starts the Telegram bot application and handles the integration with Zabbix.
