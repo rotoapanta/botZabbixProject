@@ -1,6 +1,6 @@
 # <p align="center">Zabbix API with Telegram bot
 
-<p align="center">This project interacts with the Zabbix API through a Telegram bot.</p>
+<p align="center">This project consists of a Telegram bot that integrates with Zabbix to perform host searches and execute ping commands..</p>
 
 ##
 
@@ -82,6 +82,22 @@ Let’s get started!
 |   |   
 |   
 
+
+- `app.py`: The main file that starts the Telegram bot application and handles the integration with Zabbix.
+- `config.ini`: The configuration file that contains the Zabbix credentials and Telegram access token.
+- `config_reader.py`: Module to read the configuration from the `config.ini` file.
+- `zbx_bot/`: Directory that contains the files related to the Telegram bot and Zabbix integration.
+  - `zabbix.py`: Module that connects to the Zabbix API and performs operations related to hosts.
+  - `telegram_bot.py`: Module that implements the Telegram bot and handles commands and responses.
+- `README.md`: This file provides information about the project and its structure.
+
+## Configuration
+
+Before running the application, you need to configure the Zabbix credentials and the Telegram access token in the `config.ini` file. Make sure to provide the correct values in the `[Zabbix]` and `[Telegram]` sections.
+
+## Execution
+
+To run the application, use the following command:
 
 ## Power Supply Options
 
