@@ -93,21 +93,19 @@ This project consists of the following components:
 
 Before running the application, you need to configure the Zabbix credentials and the Telegram access token in the `config.ini` file. Make sure to provide the correct values in the `[Zabbix]` and `[Telegram]` sections.
 
+1. Open the config.ini file in the project directory.
+
+2. Configure the Zabbix credentials:
+   - Set the Zabbix URL in the url field.
+   - Enter your Zabbix username in the user field.
+   - Provide your Zabbix password in the password field.
+
+4. Configure the Telegram access token:
+   - Set your Telegram bot token in the token field under the [Telegram] section.
+
 ## Execution
 
 To run the application, use the following command:
-
-## Power Supply Options
-
-There is a way to provide power to the tiltmeter:
-
-  * Connect the 12V DC adapter to the tiltmeter jack.
-
-**_It is recommended to verify the polarity of the jack (- ring and + center)._**
-
-## Pin Layout
-![Pinout-tiltmeter.png](https://github.com/rotoapanta/digital_tiltmeter_zabbix/assets/16738424/a8703cc0-d72a-41af-a456-22ba8f73b432)
-
 
 # Instructions
 
