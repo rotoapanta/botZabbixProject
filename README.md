@@ -8,7 +8,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/botZabbixPackage)](https://github.com/rotoapanta/botZabbixPackage/issues)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/botZabbixPackage)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rotoapanta/botZabbixPackage)
-![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/prueba_2/main/6a500cc65d)
+![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/botZabbixPackage/main/d8b7bfe)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
 ![Discord](https://img.shields.io/discord/996422496842694726)
 [![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/Gs9b3HFd)
