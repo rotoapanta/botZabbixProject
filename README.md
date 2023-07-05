@@ -147,7 +147,7 @@ To automate the execution of the project using the crontab, you can follow these
 2. In the crontab file, add a new line with the following command to execute the project continuously:
 
     ```bash
-      * * * * * while true; do cd /path/to/project && python app.py config.ini; sleep 1; done````
+      * * * * * while true; do cd /path/to/project && python app.py config.ini; sleep 1; done
     ````
 Replace /path/to/project with the actual path to the project directory.
 
@@ -155,13 +155,18 @@ Replace /path/to/project with the actual path to the project directory.
 
 ## Environment Variables
 
-To run this project, you will need to add the IP address of the Zabbix server to the `configuration.ini file.
+## Environment Variables
 
-`[zabbix_server]`
+Before running the project, make sure to set the following environment variables:
 
-`ip=XXX.XXX.XXX.XXX`
+- `ZABBIX_URL`: The URL of the Zabbix instance.
+- `ZABBIX_USER`: The username for accessing the Zabbix API.
+- `ZABBIX_PASSWORD`: The password for accessing the Zabbix API.
+- `TELEGRAM_TOKEN`: The token for accessing the Telegram Bot API.
 
-`port=10051`
+You can either set these environment variables manually or create a `.env` file in the root directory of the project and populate it with the required values.
+
+Example `.env` file:
 
 ## Change Log
 
