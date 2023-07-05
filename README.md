@@ -180,21 +180,20 @@ To run this project, you will need to add the IP address of the Zabbix server to
 
 ## Change Log
 
+* Revision: 1.2 - Add requeriments.
 * Revision: 1.1 - Code cleaned.
 * Revision: 1.0 - Initial commit
 
-## Running Tests
-
-To run tests, run the following command
-
-```python
-  ampy --port /dev/ttyUSB0 run main.py
-```
-
-## Usage/Examples
+## Usage
 
 - Send `/ping` command to the bot in a Telegram chat to initiate a host search and perform a ping test.
 - Follow the prompts and instructions provided by the bot to interact and retrieve information from Zabbix.
+
+## Logging
+
+- The application logs are stored in the app.log file in the same directory as app.py.
+
+- You can refer to this log file to track the application's execution and any errors or exceptions that may occur.
 
 ## Feedback
 
