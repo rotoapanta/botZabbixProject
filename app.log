@@ -16,3 +16,9 @@
 2023-07-05 14:08:18,916 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2023-07-05 14:08:18,917 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2023-07-05 14:08:19,157 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-05 16:06:59,716 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-05 16:06:59,842 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-05 16:06:59,922 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-05 16:54:09,730 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-05 16:54:09,731 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-05 16:54:09,954 - telegram.ext.updater - WARNING - Exiting immediately!
