@@ -17,7 +17,7 @@
 # Contents
 
   * [Getting started](#getting-started)
-    * [Getting started with Tiltmeter and Zabbix](#getting-started-with-tiltmeter-and-zabbix)
+    * [Getting started with Zabbix and Telegram](#getting-started-with-zabbix-and-telegram)
     * [Requirements](#requirements)
     * [Components Description](#components-description)
     * [Power Supply Options](#power-supply-options)
@@ -53,8 +53,6 @@ Let’s get started!
   * A Telegram bot token obtained from the BotFather.
   * `pyzabbix` library installed to interact with the Zabbix API..
   * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
-  * [Install py-zabbix 1.1.7](https://pypi.org/project/pyzabbix/)
-  * [Install pyserial 3.5](https://pypi.org/project/pyserial/)
 
 ## Components Description
 
@@ -233,10 +231,10 @@ For support, email robertocarlos.toapanta@gmail.com or join our Discord channel.
 
 ## More Info
 
-* [Zabbix Sender](https://www.zabbix.com/documentation/4.0/en/manual/concepts/sender)
-* [Zabbix Handy Tips: Collect and send custom metrics with Zabbix sender](https://www.youtube.com/watch?v=AWJgEHLOHe0)
 * [Official documentation for py-zabbix](https://py-zabbix.readthedocs.io/en/latest/)
 * [GitHub py-zabbix](https://github.com/adubkov/py-zabbix)
+* [Install py-zabbix 1.1.7](https://pypi.org/project/pyzabbix/)
+* [Install pyserial 3.5](https://pypi.org/project/pyserial/)
 
 ## Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roberto-carlos-toapanta-g/)
