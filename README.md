@@ -20,8 +20,8 @@
     * [Getting started with Zabbix and Telegram](#getting-started-with-zabbix-and-telegram)
     * [Requirements](#requirements)
     * [Components Description](#components-description)
-    * [Installation](#installation)
-    * [Configuration](#configuration)
+  * [Installation](#installation)
+  * [Configuration](#configuration)
   * [Instructions](#instructions)
   * [Environment Variables](#environment-variables)
   * [Change Log](#change-log)
@@ -87,7 +87,7 @@ This project consists of the following components:
   - `zabbix.py`: This module provides functions to interact with the Zabbix API.
 - `requirements.txt`: This file lists all the required Python dependencies for the project. It can be used with the pip command to install the necessary packages.
 
-## Installation
+# Installation
 
 1. Clone the repository:
 
@@ -99,7 +99,7 @@ This project consists of the following components:
 3. Install the required Python packages:
 `pip install -r requirements.txt`
 
-## Configuration
+# Configuration
 
 1. Open the config.ini file in the project directory.
 
@@ -111,7 +111,7 @@ This project consists of the following components:
 3. Configure the Telegram access token:
    - Set your Telegram bot token in the token field under the [Telegram] section.
 
-## Running the Application
+# Running the Application
 
 1. Run the application using the following command:
 
@@ -122,7 +122,7 @@ This project consists of the following components:
 
 To run the application, use the following command:
 
-## Running the Project Automatically with Crontab
+# Running the Project Automatically with Crontab
 To automate the execution of the project using the crontab, you can follow these steps:
 
 1. Open the crontab for editing by running the following command in the terminal:
