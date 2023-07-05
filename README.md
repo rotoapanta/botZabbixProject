@@ -99,7 +99,9 @@ This project consists of the following components:
 
 2. Clone the repository:
 
-`git clone https://github.com/your-username/telegram-zabbix-bot.git`
+   ```bash
+    git clone https://github.com/your-username/telegram-zabbix-bot.git`
+    ```
 
 3. Navigate to the project directory:
 `cd telegram-zabbix-bot`
