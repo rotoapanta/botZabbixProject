@@ -48,8 +48,8 @@ Let’s get started!
  
 ## Requirements
 
-    * Anaconda installed on your system.
-    * Python 3.10 or higher installed on your system.
+* Anaconda installed on your system.
+* Python 3.10 or higher installed on your system.
     * `python-telegram-bot` library version 13.1 installed.
     * Access to a Zabbix server with appropriate credentials. 
     * A Telegram bot token obtained from the BotFather.
