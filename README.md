@@ -180,7 +180,8 @@ To run this project, you will need to add the IP address of the Zabbix server to
 
 ## Change Log
 
-* Revision: 1.2 - Add requeriments.
+* Revision: 1.3 - Add requeriments.txt
+* Revision: 1.2 - Add app.log
 * Revision: 1.1 - Code cleaned.
 * Revision: 1.0 - Initial commit
 
