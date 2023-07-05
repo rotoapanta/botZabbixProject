@@ -48,12 +48,13 @@ Let’s get started!
  
 ## Requirements
 
-  * Python 3.10 or higher installed on your system.
-  * `python-telegram-bot` library version 13.1 installed.
-  * Access to a Zabbix server with appropriate credentials. 
-  * A Telegram bot token obtained from the BotFather.
-  * `pyzabbix` library installed to interact with the Zabbix API..
-  * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
+    * Anaconda installed on your system.
+    * Python 3.10 or higher installed on your system.
+    * `python-telegram-bot` library version 13.1 installed.
+    * Access to a Zabbix server with appropriate credentials. 
+    * A Telegram bot token obtained from the BotFather.
+    * `pyzabbix` library installed to interact with the Zabbix API..
+    * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
 
 ## Components Description
 
@@ -145,7 +146,7 @@ Replace /path/to/project with the actual path to the project directory.
 
 # Instructions
 
-1. Install Anaconda.
+1. Anaconda installed on your system.
 
 2. Create a new environment with python 3.10.
 
@@ -153,40 +154,6 @@ Replace /path/to/project with the actual path to the project directory.
    conda create --name bot_zabbix_env python=3.10
    ```
 
-3. Install pythonping library.
-
-   ```bash
-   pip install pythonping
-   ```
-
-4. Install pythonping library.
-
-   ```bash
-   pip install python-telegram-bot==13.1
-   ```
-   
-5. Install py-zabbix library.
-
-   ```bash
-   pip install py-zabbix
-   ```
-5. Check tiltmeter data frame with a hyperterminal.
-
-   ```bash
-   $-9162.82, 9162.82,23.88,N7624
-   ```
-6. Insert into the server's crontab to run periodically.
-   ```bash
-   chmod +x run_tiltmeter_zabbix.sh
-   ```
-   
-   ```bash
-   crontab -e
-   ```
-   
-   ```bash
-   * * * * * /home/rotoapanta/script/run_tiltmeter_zabbix.sh
-   ```
 ## Environment Variables
 
 To run this project, you will need to add the IP address of the Zabbix server to the `configuration.ini file.
