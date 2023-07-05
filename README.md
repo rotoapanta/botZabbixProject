@@ -48,7 +48,6 @@ Let’s get started!
  
 ## Requirements
 
-* Anaconda installed on your system.
 * Python 3.10 or higher installed on your system.
 * `python-telegram-bot` library version 13.1 installed.
 * Access to a Zabbix server with appropriate credentials. 
@@ -100,15 +99,21 @@ This project consists of the following components:
 2. Clone the repository:
 
    ```bash
-    git clone https://github.com/your-username/telegram-zabbix-bot.git`
+    git clone https://github.com/your-username/telegram-zabbix-bot.git
     ```
 
 3. Navigate to the project directory:
-`cd telegram-zabbix-bot`
+
+   ```bash
+    cd telegram-zabbix-bot`
+    ```
 
 4. Install the required Python packages:
-`pip install -r requirements.txt`
 
+   ```bash
+    pip install -r requirements.txt
+    ```
+   
 # Configuration
 
 1. Open the config.ini file in the project directory.
@@ -126,12 +131,9 @@ This project consists of the following components:
 1. Run the application using the following command:
 
     ```bash
-      python app.py config.ini`
+      python app.py config.ini
     ```
 2. The Telegram bot will start and listen for commands.
-
-
-To run the application, use the following command:
 
 # Running the Project Automatically with Crontab
 To automate the execution of the project using the crontab, you can follow these steps:
