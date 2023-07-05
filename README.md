@@ -125,8 +125,9 @@ This project consists of the following components:
 
 1. Run the application using the following command:
 
-`python app.py config.ini`
-
+    ```bash
+    python app.py config.ini`
+    ```
 2. The Telegram bot will start and listen for commands.
 
 
