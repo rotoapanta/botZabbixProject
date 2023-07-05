@@ -124,6 +124,26 @@ This project consists of the following components:
 
 To run the application, use the following command:
 
+## Running the Project Automatically with Crontab
+To automate the execution of the project using the crontab, you can follow these steps:
+
+1. Open the crontab for editing by running the following command in the terminal:
+
+ ```bash
+    crontab -e
+ ```
+
+2. In the crontab file, add a new line with the following command to execute the project continuously:
+
+ ```* * * * * while true; do cd /path/to/project && python app.py config.ini; sleep 1; done````
+
+Replace /path/to/project with the actual path to the project directory.
+
+3. Save the crontab file and exit the editor.
+
+
+
+
 # Instructions
 
 1. Install Anaconda.
