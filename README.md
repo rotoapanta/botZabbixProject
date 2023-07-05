@@ -50,11 +50,11 @@ Let’s get started!
 
 * Anaconda installed on your system.
 * Python 3.10 or higher installed on your system.
-    * `python-telegram-bot` library version 13.1 installed.
-    * Access to a Zabbix server with appropriate credentials. 
-    * A Telegram bot token obtained from the BotFather.
-    * `pyzabbix` library installed to interact with the Zabbix API..
-    * Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
+* `python-telegram-bot` library version 13.1 installed.
+* Access to a Zabbix server with appropriate credentials. 
+* A Telegram bot token obtained from the BotFather.
+* `pyzabbix` library installed to interact with the Zabbix API..
+* Computer running Anaconda on Windows, Linux or macOS (in this case macOS is used).
 
 ## Components Description
 
@@ -91,14 +91,20 @@ This project consists of the following components:
 
 # Installation
 
-1. Clone the repository:
+1. Create a new environment with python 3.10.
+
+   ```bash
+   conda create --name bot_zabbix_env python=3.10
+   ```
+
+2. Clone the repository:
 
 `git clone https://github.com/your-username/telegram-zabbix-bot.git`
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 `cd telegram-zabbix-bot`
 
-3. Install the required Python packages:
+4. Install the required Python packages:
 `pip install -r requirements.txt`
 
 # Configuration
@@ -140,19 +146,6 @@ To automate the execution of the project using the crontab, you can follow these
 Replace /path/to/project with the actual path to the project directory.
 
 3. Save the crontab file and exit the editor.
-
-
-
-
-# Instructions
-
-1. Anaconda installed on your system.
-
-2. Create a new environment with python 3.10.
-
-   ```bash
-   conda create --name bot_zabbix_env python=3.10
-   ```
 
 ## Environment Variables
 
