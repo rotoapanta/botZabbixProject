@@ -91,14 +91,22 @@ This project consists of the following components:
 
 1. Clone the repository:
 
-   ```shell
-    https://github.com/rotoapanta/botZabbixProject.git
+```shell
+https://github.com/rotoapanta/botZabbixProject.git
    
+2. Navigate to the project directory:
+
+ ```shell
+   cd repository
+
+3. Ensure that you have Anaconda or Python 3.10 with the venv tool installed on your system.
+
+Follow the instructions in the run_bot_zabbix.sh script to set up and run the project. This script takes care of environment setup, dependency installation, and execution of the Zabbix bot.
 
 1. Create a new environment with python 3.10.
 
-   ```bash
-   conda create --name bot_zabbix_env python=3.10
+ ```shell
+conda create --name bot_zabbix_env python=3.10
    ```
 
 2. Clone the repository:
