@@ -89,6 +89,12 @@ This project consists of the following components:
 
 # Installation
 
+1. Clone the repository:
+
+   ```shell
+    https://github.com/rotoapanta/botZabbixProject.git
+   
+
 1. Create a new environment with python 3.10.
 
    ```bash

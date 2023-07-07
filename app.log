@@ -28961,3 +28961,9 @@ telegram.error.Unauthorized: Unauthorized
 2023-07-07 16:10:04,187 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2023-07-07 16:10:04,188 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2023-07-07 16:10:09,873 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 16:26:45,761 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 16:26:45,815 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 16:26:45,909 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 16:31:13,137 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 16:31:13,137 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 16:31:13,455 - telegram.ext.updater - WARNING - Exiting immediately!
