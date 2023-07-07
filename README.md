@@ -60,11 +60,11 @@ Let’s get started!
 This project consists of the following components:
 
   - utils/
-    -__init__.py
+    - __init__.py
     - config_reader.py
     - logging.utils.py
   - zbx_bot/
-    -__init__.py
+    - __init__.py
     - telegram_bot.py
     - zabbix.py
 - app.py
