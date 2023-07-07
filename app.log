@@ -28954,3 +28954,4 @@ telegram.error.Unauthorized: Unauthorized
 2023-07-07 14:38:24,510 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2023-07-07 14:38:24,511 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2023-07-07 14:38:33,841 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 15:07:03,384 - utils.config_reader - ERROR - Se requiere el nombre del archivo de configuración como argumento.
