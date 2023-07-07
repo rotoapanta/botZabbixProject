@@ -28705,3 +28705,252 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2023-07-06 21:11:38,852 - apscheduler.scheduler - INFO - Scheduler started
 2023-07-06 21:12:28,345 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2023-07-06 21:12:28,345 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 21:46:40,674 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-06 21:46:40,731 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-06 21:46:40,808 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:08:10,321 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:08:10,321 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:08:10,685 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:08:13,256 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-06 22:08:13,315 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-06 22:08:13,430 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:19:44,185 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:19:44,185 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:19:50,449 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:19:53,455 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-06 22:19:53,456 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:23:38,913 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:23:38,914 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:23:43,812 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:23:46,807 - zbx_bot.zabbix - ERROR - Error al conectar a Zabbix: 'url'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\zabbix.py", line 16, in connect_to_zabbix
+    zabbix = ZabbixAPI(configuration['url'])  # Utiliza la URL directamente
+                       ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'url'
+2023-07-06 22:23:46,808 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:29:11,586 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:29:11,587 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:29:17,870 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:31:38,275 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-06 22:31:38,276 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:31:57,558 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:31:57,558 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:31:57,765 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:32:47,772 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-06 22:32:47,773 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:38:09,412 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:38:09,413 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:38:09,624 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:38:12,966 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-06 22:38:12,967 - zbx_bot.zabbix - ERROR - Error al conectar a Zabbix: ZabbixAPI.login() got an unexpected keyword argument 'token'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\zabbix.py", line 17, in connect_to_zabbix
+    zabbix.login(token=zabbix_auth)
+TypeError: ZabbixAPI.login() got an unexpected keyword argument 'token'
+2023-07-06 22:38:12,968 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-06 22:56:01,115 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-06 22:56:01,116 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-06 22:56:06,766 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-06 22:57:33,341 - __main__ - INFO - Aplicación iniciada.
+2023-07-06 22:57:33,341 - __main__ - INFO - Aplicación finalizada.
+2023-07-06 22:57:38,141 - __main__ - INFO - Aplicación iniciada.
+2023-07-06 22:57:38,141 - __main__ - INFO - Aplicación finalizada.
+2023-07-07 07:32:42,581 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 07:32:42,635 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 07:32:42,729 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 08:06:57,734 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 08:06:57,734 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 08:06:58,069 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 08:07:00,496 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:07:00,554 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:07:00,641 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'telegram'
+2023-07-07 08:08:01,843 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:08:01,910 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:08:02,000 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'telegram'
+2023-07-07 08:26:11,576 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:26:11,624 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:26:11,704 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:27:21,287 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:27:21,354 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:27:21,440 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:30:37,558 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:30:37,613 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:30:37,701 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:31:33,364 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:31:33,420 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:31:33,497 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'telegram'
+2023-07-07 08:36:37,893 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:36:37,950 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:36:38,031 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:36:49,893 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-07 08:36:49,893 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:42:25,230 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-07 08:42:25,230 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:44:21,576 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:44:21,626 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:44:21,694 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:48:45,455 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:48:45,508 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:48:45,598 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: 'Telegram'
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 65, in main
+    updater = Updater(bot_data['configuration']['Telegram']['token'])
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'Telegram'
+2023-07-07 08:52:06,899 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 08:52:06,955 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 08:52:07,031 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 09:56:26,895 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 09:56:26,899 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 09:56:27,227 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 09:56:50,201 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 09:56:50,255 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 09:56:50,336 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 10:04:30,135 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 10:04:30,135 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 10:04:34,651 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 10:04:42,436 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 10:04:42,491 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 10:04:42,570 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 10:05:56,777 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 10:05:56,777 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 10:06:03,176 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 10:09:50,232 - utils.config_reader - ERROR - Error in check_file(config.ini). Error: [Errno 2] No such file or directory: 'config.ini' 
+2023-07-07 10:10:19,672 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 10:10:19,729 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 10:10:19,825 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 10:11:41,935 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 10:11:41,936 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 10:11:44,513 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 10:11:50,827 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 10:11:50,881 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 10:11:50,969 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 10:14:24,881 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 10:14:24,882 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 10:14:30,038 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 10:14:32,416 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 10:14:32,471 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 10:14:32,550 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 10:14:49,890 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 10:14:49,890 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 10:14:50,226 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 12:00:53,980 - __main__ - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 12:02:43,542 - __main__ - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 12:11:33,486 - utils.config_reader - ERROR - Error in check_file(cinfigura.ini). Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 12:23:46,427 - __main__ - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 14:01:18,234 - utils.config_reader - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 14:01:26,918 - utils.config_reader - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 14:01:32,303 - utils.config_reader - ERROR - Error in check_file(cinfigura.ini). Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 14:01:42,860 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 14:01:42,921 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 14:01:43,000 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:04:50,216 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 14:04:50,216 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 14:04:55,484 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 14:04:59,955 - utils.config_reader - ERROR - Error in check_file(cinfigura.ini). Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 14:07:34,933 - utils.config_reader - ERROR - Error in check_file(cinfigura.ini). Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 14:07:57,814 - utils.config_reader - ERROR - Error in check_file(cinfigura.ini). Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 14:16:55,932 - utils.config_reader - ERROR - Error: [Errno 2] No such file or directory: 'cinfigura.ini' 
+2023-07-07 14:18:29,006 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 14:18:29,065 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 14:18:29,148 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:19:37,333 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 14:19:37,333 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 14:19:37,717 - telegram.ext.updater - WARNING - Exiting immediately!
+2023-07-07 14:21:31,640 - zbx_bot.zabbix - ERROR - Configuración de Zabbix incompleta.
+2023-07-07 14:21:31,641 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:28:37,560 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 14:28:37,617 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 14:28:37,698 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:28:59,078 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 14:28:59,079 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 14:31:19,936 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 14:31:19,990 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 14:31:20,075 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:31:20,766 - zbx_bot.telegram_bot - ERROR - Error al iniciar el bot de Telegram: Unauthorized
+Traceback (most recent call last):
+  File "C:\Users\rtoapanta\PycharmProjects\botZabbixPackage\zbx_bot\telegram_bot.py", line 76, in main
+    updater.start_polling()
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\ext\updater.py", line 285, in start_polling
+    self._init_thread(self.dispatcher.start, "dispatcher", ready=dispatcher_ready)
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\ext\updater.py", line 225, in _init_thread
+    name=f"Bot:{self.bot.id}:{name}",
+                ^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\bot.py", line 117, in decorator
+    self.get_me()
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\bot.py", line 135, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\bot.py", line 392, in get_me
+    result = self._post('getMe', timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\bot.py", line 245, in _post
+    return self.request.post(f'{self.base_url}/{endpoint}', data=data, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\utils\request.py", line 349, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rtoapanta\AppData\Local\anaconda3\envs\bot_zabbix_env\Lib\site-packages\telegram\utils\request.py", line 270, in _request_wrapper
+    raise Unauthorized(message)
+telegram.error.Unauthorized: Unauthorized
+2023-07-07 14:32:11,381 - utils.config_reader - ERROR - Se requiere el nombre del archivo de configuración como argumento.
+2023-07-07 14:38:12,122 - pyzabbix.api - INFO - JSON-RPC Server Endpoint: http://192.168.1.115/zabbix/api_jsonrpc.php
+2023-07-07 14:38:12,174 - pyzabbix.api - INFO - Zabbix API version is: 4.0.0
+2023-07-07 14:38:12,272 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-07 14:38:24,510 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2023-07-07 14:38:24,511 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-07 14:38:33,841 - telegram.ext.updater - WARNING - Exiting immediately!

@@ -1,27 +1,16 @@
-import logging
 import signal
 import sys
-from config_reader import read_configuration
+import logging
 from zbx_bot import zabbix
 from zbx_bot.telegram_bot import main as telegram_main
-
-# Obtener el nombre del archivo de configuración desde los argumentos de línea de comandos
-if len(sys.argv) < 2:
-    print("Se requiere el nombre del archivo de configuración como argumento.")
-    sys.exit(1)
-
-config_file = sys.argv[1]
-
-# Obtener la configuración desde el archivo especificado
-configuration = read_configuration(config_file)
+from utils.config_reader import read_configuration_with_args
+from utils.logging_utils import setup_logging
 
 # Configurar el registro en el archivo .log
-logging.basicConfig(
-    filename='app.log',
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
-)
-logger = logging.getLogger(__name__)
+setup_logging()
+
+# Obtener la configuración desde el archivo especificado
+configuration = read_configuration_with_args()
 
 # Conectarse a Zabbix utilizando la configuración proporcionada
 zabbix_instance = zabbix.connect_to_zabbix(configuration)
@@ -31,11 +20,16 @@ bot_data = {
     'configuration': configuration
 }
 
+# Crear el objeto logger
+logger = logging.getLogger(__name__)
+
+
 # Función para manejar señales y finalizar la aplicación adecuadamente
 def handle_exit(signum, frame):
     logger.info("Finalizando la aplicación...")
     # Agregar aquí cualquier código adicional para limpiar recursos, guardar datos, etc.
     sys.exit(0)
+
 
 # Registrar la función de manejo de señales para SIGINT (Ctrl+C)
 signal.signal(signal.SIGINT, handle_exit)
