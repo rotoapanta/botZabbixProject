@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/botZabbixPackage.iml" filepath="$PROJECT_DIR$/.idea/botZabbixPackage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/botZabbixProject.iml" filepath="$PROJECT_DIR$/.idea/botZabbixProject.iml" />
     </modules>
   </component>
 </project>
