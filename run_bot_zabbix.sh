@@ -3,7 +3,7 @@
 # Define variables
 CONDA_PATH="/home/rotoapanta/anaconda3/bin"
 CONDA_ENV="bot_zabbix_env"
-SCRIPT_PATH="/home/rotoapanta/script/bot_zabbix"
+SCRIPT_PATH="/home/rotoapanta/script/bot_zabbix_project"
 PYTHON_SCRIPT="app.py"
 CONFIG_FILE="config.ini"
 
