@@ -32,5 +32,8 @@ conda activate ${CONDA_ENV}
 # Navega hacia el directorio del script Python
 cd ${SCRIPT_PATH}
 
+# Instala las dependencias del archivo requirements.txt
+pip install -r requirements.txt
+
 # Ejecuta el script Python con el archivo de configuración y redirige la salida estándar a la salida de error
 python ./${PYTHON_SCRIPT} ./${CONFIG_FILE} >&2
