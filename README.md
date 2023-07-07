@@ -59,17 +59,19 @@ Let’s get started!
 
 This project consists of the following components:
 
-- app.py
-- app.log
-- config.ini
-- config_reader.py
-- logging.ini
+  - utils/
+    -__init__.py
+    - config_reader.py
+    - logging.utils.py
   - zbx_bot/
     -__init__.py
     - telegram_bot.py
     - zabbix.py
-  - requirements.txt
-  - README.md
+- app.py
+- app.log
+- config.ini
+- requirements.txt
+- run_bot_zabbix.sh
 
 - `app.py`: This is the main entry point of the application. It initializes the logging configuration, reads the configuration file, connects to the Zabbix server, and starts the Telegram bot.
 
