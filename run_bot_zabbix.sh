@@ -23,8 +23,13 @@ if [ ! -f "${SCRIPT_PATH}/${CONFIG_FILE}" ]; then
     exit 1
 fi
 
-# Activar el entorno virtual
-source ${ENV_PATH}/bin/activate
+# Crear el entorno Conda si no existe
+if [ ! -d "${CONDA_PREFIX}/envs/${ENV_NAME}" ]; then
+    conda create --name ${ENV_NAME} python=3.10
+fi
+
+# Activar el entorno Conda
+conda activate ${ENV_NAME}
 
 # Instalar las dependencias del archivo requirements.txt
 pip install -r ${SCRIPT_PATH}/requirements.txt
