@@ -89,7 +89,7 @@ This project consists of the following components:
 
 # Installation
 
-Follow the instructions in the run_bot_zabbix.sh script to set up and run the project. This script takes care of environment setup, dependency installation, and execution of the Zabbix bot.
+Follow the instructions to set up and run the project. The run_bot_zabbix.sh script takes care of setting up the environment, checking for the existence of directories and files, creating the conda environment if it doesn't already exist, activating the conda environment, installing the dependencies specified in the requirements.txt file, and running the Python script app. .py with the provided configuration file.
 
 1. Clone the repository:
 
