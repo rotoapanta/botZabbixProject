@@ -89,6 +89,8 @@ This project consists of the following components:
 
 # Installation
 
+Follow the instructions in the run_bot_zabbix.sh script to set up and run the project. This script takes care of environment setup, dependency installation, and execution of the Zabbix bot.
+
 1. Clone the repository:
 
 ```shell
@@ -97,38 +99,18 @@ https://github.com/rotoapanta/botZabbixProject.git
    
 2. Navigate to the project directory:
 
- ```shell
+```shell
    cd repository
 ```
 
-3. Ensure that you have Anaconda or Python 3.10 with the venv tool installed on your system.
+3. Ensure that Anaconda or Miniconda is installed on your system.
 
-Follow the instructions in the run_bot_zabbix.sh script to set up and run the project. This script takes care of environment setup, dependency installation, and execution of the Zabbix bot.
+4. Run the script:
 
-1. Create a new environment with python 3.10.
+```shell
+   ./run_bot_zabbix.sh
+```
 
- ```shell
-conda create --name bot_zabbix_env python=3.10
-   ```
-
-2. Clone the repository:
-
-   ```bash
-    git clone https://github.com/your-username/telegram-zabbix-bot.git
-    ```
-
-3. Navigate to the project directory:
-
-   ```bash
-    cd telegram-zabbix-bot`
-    ```
-
-4. Install the required Python packages:
-
-   ```bash
-    pip install -r requirements.txt
-    ```
-   
 # Configuration
 
 1. Open the config.ini file in the project directory.
