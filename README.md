@@ -93,11 +93,13 @@ This project consists of the following components:
 
 ```shell
 https://github.com/rotoapanta/botZabbixProject.git
+```
    
 2. Navigate to the project directory:
 
  ```shell
    cd repository
+```
 
 3. Ensure that you have Anaconda or Python 3.10 with the venv tool installed on your system.
 
