@@ -152,8 +152,6 @@ Replace /path/to/project with the actual path to the project directory.
 
 ## Environment Variables
 
-## Environment Variables
-
 Before running the project, make sure to set the following environment variables:
 
 - `ZABBIX_URL`: The URL of the Zabbix instance.
