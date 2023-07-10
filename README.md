@@ -133,22 +133,35 @@ https://github.com/rotoapanta/botZabbixProject.git
 2. The Telegram bot will start and listen for commands.
 
 # Running the Project Automatically with Crontab
-To automate the execution of the project using the crontab, you can follow these steps:
 
-1. Open the crontab for editing by running the following command in the terminal:
+To run the Zabbix bot project automatically at specified intervals, you can use the `crontab` utility in Unix-like systems. Follow these steps to set up a cron job:
+
+1. Open the terminal and execute the following command to edit the cron jobs for the current user:
 
     ```bash
       crontab -e
     ```
 
-2. In the crontab file, add a new line with the following command to execute the project continuously:
+2. In the crontab file, add the following line to schedule the execution of the Zabbix bot script:
 
     ```bash
-      * * * * * while true; do cd /path/to/project && python app.py config.ini; sleep 1; done
+    * * * * * while true; do cd /path/to/project && python app.py config.ini; sleep 1; done
     ````
 Replace /path/to/project with the actual path to the project directory.
 
-3. Save the crontab file and exit the editor.
+3. Save and exit the crontab file. The cron job will be automatically scheduled and executed based on the specified interval.
+Note: Ensure that the `run_bot_zabbix.sh` script has executable permissions. If not, you can set the permissions using the following command:
+
+    ```bash
+    chmod +x /path/to/project/run_bot_zabbix.sh
+    ````
+4. The output of the script will be redirected to the app.log file located in the project directory. You can check this file for any logs or error messages.
+
+    ```bash
+    tail -f /path/to/project/app.log
+    ````
+
+That's it! The Zabbix bot project will now be automatically executed at the scheduled intervals defined in the cron job.
 
 ## Environment Variables
 
