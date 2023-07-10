@@ -178,7 +178,8 @@ Example `.env` file:
 
 ## Change Log
 
-* Revision: 1.3 - Add requeriments.txt
+* Revision: 1.4 - Add run_bot_zabbix.sh
+* Revision: 1.3 - Add requirements.txt
 * Revision: 1.2 - Add app.log
 * Revision: 1.1 - Code cleaned.
 * Revision: 1.0 - Initial commit
