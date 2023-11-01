@@ -13,6 +13,9 @@
 ![Discord](https://img.shields.io/discord/996422496842694726)
 [![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/Gs9b3HFd)
 ![GitHub forks](https://img.shields.io/github/forks/rotoapanta/botZabbixPackage?style=social)
+[![Zabbix](https://img.shields.io/badge/Zabbix-4.6-orange)](https://www.zabbix.com/)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue)](https://core.telegram.org/bots)
+[![Python](https://img.shields.io/badge/Python-3.11-brightgreen)](https://www.python.org/)
 
 # Contents
 
