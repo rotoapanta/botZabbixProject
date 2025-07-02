@@ -6,7 +6,7 @@
 
 ![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)
 [![GitHub issues](https://img.shields.io/github/issues/rotoapanta/botZabbixPackage)](https://github.com/rotoapanta/botZabbixPackage/issues)
-![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/botZabbixPackage)
+![GitHub repo size](https://img.shields.io/github/repo-size/rotoapanta/botZabbixProject)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rotoapanta/botZabbixPackage)
 ![GitHub commit merge status](https://img.shields.io/github/commit-status/rotoapanta/botZabbixPackage/master/d8b7bfe)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
